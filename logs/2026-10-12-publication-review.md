@@ -23,3 +23,7 @@ context、outputs、normalized、logs、handoffsはGit除外されていない�
 ## 再開
 
 公開結果は handoffs/publication.md を参照する。
+
+## 公開結果
+
+109ファイルをmainへ初回公開した（583be09）。git ls-remoteで公開先とローカルのコミット一致を確認。コミットのメールはGitHubのnoreplyアドレスを使用した。未完了・追加の人間の判断はなし。

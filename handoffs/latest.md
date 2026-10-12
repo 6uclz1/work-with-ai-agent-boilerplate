@@ -2,7 +2,7 @@
 
 | 対象 | 引き継ぎ | 状態 |
 | --- | --- | --- |
-| テンプレート公開 | [publication.md](publication.md) | 公開前点検済み。公開結果はGit履歴を参照 |
+| テンプレート公開 | [publication.md](publication.md) | 公開完了。mainへの反映を確認 |
 | サンプルAI試行 | [example-ai-pilot.md](example-ai-pilot.md) | 架空の完成例。構成案まで |
 
 実作業の終了時は案件別の引き継ぎを追加し、この一覧を更新します。サンプルを実際の最新案件と勘違いしないでください。
