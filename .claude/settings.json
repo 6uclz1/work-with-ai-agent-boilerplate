@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Edit(/projects/*/outputs/**)",
+      "Edit(/projects/*/meetings/**)",
+      "Edit(/projects/*/research/**)",
+      "Edit(/projects/*/sources/normalized/**)",
+      "Edit(/projects/*/current.md)",
+      "Edit(/projects/*/tasks.md)",
+      "Edit(/projects/*/decisions.md)",
+      "Edit(/projects/*/lessons.md)",
+      "Edit(/routines/*/*/outputs/**)",
+      "Edit(/logs/**)",
+      "Edit(/handoffs/**)",
+      "Edit(/knowledge/lessons.md)"
+    ],
+    "ask": [
+      "Edit(/AGENTS.md)",
+      "Edit(/CLAUDE.md)",
+      "Edit(/rules/safety.md)",
+      "Edit(/.claude/settings.json)",
+      "Edit(/.claude/settings.local.json)",
+      "Edit(/projects/*/sources/raw/**)",
+      "Edit(/routines/*/*/sources/raw/**)",
+      "Bash(rm *)",
+      "Bash(git push *)",
+      "Bash(git reset *)",
+      "Bash(git clean *)"
+    ],
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(**/.secrets/**)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Edit(**/.env)",
+      "Edit(**/.env.*)",
+      "Edit(**/.secrets/**)",
+      "Edit(**/*.pem)",
+      "Edit(**/*.key)"
+    ]
+  }
+}

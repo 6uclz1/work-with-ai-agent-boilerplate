@@ -1,0 +1,25 @@
+# Credentials and machine-local settings
+.env
+.env.*
+.secrets/
+*.pem
+*.key
+.claude/settings.local.json
+CLAUDE.local.md
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
+.codex-log/
+sandbox-output/
+**/sandbox-output/
+# Raw inputs are kept locally but excluded from Git by default.
+inbox/*
+!inbox/README.md
+projects/*/sources/raw/**
+!projects/example-ai-pilot/sources/raw/
+!projects/example-ai-pilot/sources/raw/**
+routines/expenses/*/sources/raw/**
+!routines/expenses/2026-10/sources/raw/
+!routines/expenses/2026-10/sources/raw/**

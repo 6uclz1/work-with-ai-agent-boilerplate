@@ -1,0 +1,4 @@
+interface:
+  display_name: "経費精算の準備"
+  short_description: "規程・明細・証憑を照合し、申請前のコピペ表と確認事項を作る"
+  default_prompt: "$prepare-expenses を使って、指定月の経費を提出前まで整理して。"

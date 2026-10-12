@@ -1,0 +1,4 @@
+interface:
+  display_name: "作業の記録と引き継ぎ"
+  short_description: "完了と未完を記録し、次回すぐ再開できる引き継ぎと学びを残す"
+  default_prompt: "$close-session を使って、今回の作業を記録して次回の引き継ぎを作って。"

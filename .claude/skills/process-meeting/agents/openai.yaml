@@ -1,0 +1,4 @@
+interface:
+  display_name: "会議の後処理"
+  short_description: "文字起こしから議事録・現在地・タスクを根拠付きで更新する"
+  default_prompt: "$process-meeting を使って、指定した会議メモの後処理をして。"

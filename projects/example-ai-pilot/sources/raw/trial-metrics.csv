@@ -1,0 +1,16 @@
+case_id,baseline_minutes,ai_minutes,comparable
+C01,20,13,yes
+C02,20,13,yes
+C03,20,13,yes
+C04,20,13,yes
+C05,20,13,yes
+C06,20,13,yes
+C07,20,13,yes
+C08,20,13,yes
+C09,20,13,yes
+C10,20,13,yes
+C11,20,13,yes
+C12,20,13,yes
+C13,,14,no
+C14,,14,no
+C15,,14,no

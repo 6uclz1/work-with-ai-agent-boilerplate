@@ -1,0 +1,4 @@
+interface:
+  display_name: "仕事場の整理"
+  short_description: "ルールの重複・古い状態・手順のずれを点検し、仕事場を整理する"
+  default_prompt: "$maintain-workspace を使って、この仕事場の重複と古い記述を点検して。"

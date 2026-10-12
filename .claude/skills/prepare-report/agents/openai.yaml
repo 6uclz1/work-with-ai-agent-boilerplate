@@ -1,0 +1,4 @@
+interface:
+  display_name: "報告資料の前工程"
+  short_description: "材料を根拠付きでまとめ、全体の骨子とレビュー用下書きを作る"
+  default_prompt: "$prepare-report を使って、指定案件の5枚の報告構成案を作って。"
