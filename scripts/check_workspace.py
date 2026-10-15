@@ -70,7 +70,7 @@ def main():
         print('ERROR: '+error)
     if errors:
         return 1
-    print('OK: 指示ファイル、6スキル、JSON、ローカルリンクを点検')
+    print(f'OK: 指示ファイル、{len(NAMES)}スキル、JSON、ローカルリンクを点検')
     print('この点検は業務内容・認証・外部サービスの権限を検証しません。')
     return 0
 

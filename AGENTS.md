@@ -49,3 +49,12 @@
 - `logs/`、`handoffs/`：作業記録と引き継ぎ。
 
 新規案件は `templates/project/` をコピーして `context/work-map.md` に登録する。機密案件はこの仕事場の外の独立フォルダに分け、対象外資料へリンクを張らない。
+
+## 入力からWiki・判断・Workflowへ（拡張）
+
+- 単なる資料整理は `capture-context`。まず `knowledge/wiki/INDEX.md` と関連ページだけを読み、資料の根拠を保持する。
+- 「なぜそう判断したか」が重要な案件では、従来の `decisions.md` を索引に使い、必要に応じて `templates/decision-record.md` の詳細記録を追加する。acceptedは人間が確定したときだけ。
+- 目的から作業手順が必要なら `plan-workflow`。既存Wiki、Decision、Skillを限定して参照し、`workflows/drafts/` に入力、ステップ、成功条件、停止条件を記録する。
+- 終了時の失敗・訂正は `review-workflow` で評価し、改善の**案**を残す。既存のSkill正本や安全・権限ルールを、未検証で自己変更しない。
+- 委任には `rules/delegation.md` の4D、学習には `rules/learning-loop.md` を適用する。これは既存の `rules/safety.md` の権限境界を緩和しない。
+- 自動ループはエージェントが実際に起動したセッション内で働く。常駐・定期実行・外部サービス操作が自動的に有効になるとは仮定しない。

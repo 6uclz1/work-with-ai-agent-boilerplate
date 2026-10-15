@@ -1,0 +1,4 @@
+interface:
+  display_name: "実行結果から手順を改善"
+  short_description: "失敗・訂正・回帰を評価し、承認用Skill改善案を作成する"
+  default_prompt: "$review-workflow を使って今回の結果を評価し、変更案と検証結果を残して。"

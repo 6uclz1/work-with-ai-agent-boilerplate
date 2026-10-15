@@ -10,5 +10,11 @@
   "close-session/SKILL.md": "bc544ab752122d8294502e237007b2a1c0ea5c5e8f53983e1b243eeb28b5bc86",
   "close-session/agents/openai.yaml": "3599c4af1da09b6d8fe41d910d4dabc0d76abd3fba1ef9a597ddd0f690d6c8c5",
   "maintain-workspace/SKILL.md": "57e5562d78145f50170908b2fbd1deda62b33d1dcfc3df1176ef0e2b51968b6a",
-  "maintain-workspace/agents/openai.yaml": "e7d96292bdab6f1a3f65cf7348f30caee6d9361e4b48317b1a652277220c28cf"
+  "maintain-workspace/agents/openai.yaml": "e7d96292bdab6f1a3f65cf7348f30caee6d9361e4b48317b1a652277220c28cf",
+  "capture-context/SKILL.md": "7d1c384dc8e36d5529eef09f701ce3b81a6de285a96922c7d2e0754f6ce23292",
+  "capture-context/agents/openai.yaml": "b86d8234c7121cd3055b7251b8b2f2cb23a9f7b6d5c33936da311dd0cb6c31ed",
+  "plan-workflow/SKILL.md": "f3d3377aac83f75982ed95914df64792ac9980cdb2723afa4727a88ee845383e",
+  "plan-workflow/agents/openai.yaml": "06482ae383a63d5455b9b945a03cdf8895aa1a319bd41e7b12b2eb6456aab97b",
+  "review-workflow/SKILL.md": "5efaef577e033a5d1acbb14bf02ded81c1645a4bb049dfd9e900fbde378f4938",
+  "review-workflow/agents/openai.yaml": "005cdad6f3e2ac0c770f703b9a9e89f4b06e772e87608d66441553f1187535ff"
 }

@@ -53,3 +53,20 @@
 共通指示は `AGENTS.md`、仕事別の判断は案件内の `AGENTS.md`、再現する手順は `.agents/skills/` を編集します。スキル変更後は `python3 scripts/sync_skills.py` でClaude Code側へ反映します。配布コピーの直接編集は避けます。ZIPには同期済みの実ファイルを入れているので、初回の同期やシンボリックリンクは不要です。
 
 設定の違いと確認方法は [docs/CONFIGURATION.md](docs/CONFIGURATION.md)。本の半自動化に沿い、送信・公開・正式な申請の前に人間が結果を確認する方針です。ローカルの整理や下書きは繰り返し確認を取らずに進めます。機密案件はこのフォルダの外に、独立した仕事場として置いてください。
+
+## 拡張：Personal Wikiと自己改善するWorkflow（2026-10）
+
+従来の資料・判断・Skill・handoffを維持して、**何を知っているか／なぜ判断したか／どう仕事を進めたか／次回どう直すか**をつなぐ層を追加しました。
+
+| 対象 | 役割 |
+| --- | --- |
+| `knowledge/wiki/` | 出典を保持する、トピック別の更新可能な知識 |
+| `knowledge/decisions/` | 案件横断の判断基準、詳細判断の参照先 |
+| `workflows/drafts/` | 目的から合成した実行プランと改善案 |
+| `workflows/evaluations/` | 実行・失敗・修正・回帰テストの証拠 |
+| `rules/delegation.md` | 4D（Delegation / Description / Discernment / Diligence）による委任 |
+| `rules/learning-loop.md` | Knowledge→Decision→Workflow→評価→Skill昇格の条件 |
+
+新Skillは `capture-context` / `plan-workflow` / `review-workflow`。実例と設計詳細は [Knowledge & Workflow設計](docs/KNOWLEDGE-WORKFLOW.md) および [使い方](docs/KNOWLEDGE-WORKFLOW-EXAMPLES.md) を参照してください。
+
+**自動の範囲**：エージェントが起動したセッション内で、根拠を抽出し計画・評価案を生成できます。常駐エージェントや無断の自動送信、自己権限拡大を導入するものではありません。公開リポジトリに実際の個人情報・機密資料を置かないでください。

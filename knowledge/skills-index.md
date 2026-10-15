@@ -11,4 +11,10 @@
 | 記録と引き継ぎ | `.agents/skills/close-session/SKILL.md` | `/close-session` | `$close-session` |
 | 設定と仕事場の整理 | `.agents/skills/maintain-workspace/SKILL.md` | `/maintain-workspace` | `$maintain-workspace` |
 
+| 記事・会話をWikiへ統合 | `.agents/skills/capture-context/SKILL.md` | `/capture-context` | `$capture-context` |
+| 目的からWorkflowを構築 | `.agents/skills/plan-workflow/SKILL.md` | `/plan-workflow` | `$plan-workflow` |
+| 実行を評価し手順改善を提案 | `.agents/skills/review-workflow/SKILL.md` | `/review-workflow` | `$review-workflow` |
+
 コマンドが利用できなければ「このパスのSKILL.mdを読んで、○○を進めて」で同じ手順を使えます。自動検出は使用するアプリ・バージョン・起動場所によって異なります。
+
+ワークフローの作成と実行許可・Skill昇格は別です。
