@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 
 NAMES = ('start-work', 'process-meeting', 'prepare-report', 'prepare-expenses',
-         'close-session', 'maintain-workspace')
+         'close-session', 'maintain-workspace', 'capture-context', 'plan-workflow', 'review-workflow')
 FILES = ('SKILL.md', 'agents/openai.yaml')
 
 
@@ -55,7 +55,7 @@ def sync(root, check=False):
             print('DIFF: 同期台帳')
         if changes or desired != state:
             return 1
-        print('OK: 6スキルの正本と配布コピーが一致')
+        print(f'OK: {len(NAMES)}スキルの正本と配布コピーが一致')
         return 0
     for dst, payload, _ in changes:
         dst.parent.mkdir(parents=True, exist_ok=True)

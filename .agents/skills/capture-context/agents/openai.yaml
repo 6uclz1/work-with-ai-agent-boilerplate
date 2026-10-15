@@ -1,0 +1,4 @@
+interface:
+  display_name: "原本からWikiを育てる"
+  short_description: "根拠を保持して知識を統合し、矛盾・未確認を記録する"
+  default_prompt: "$capture-context を使ってこの資料をWikiへ統合し、出典と未確認事項を残して。"
